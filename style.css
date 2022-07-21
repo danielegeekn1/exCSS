@@ -1,0 +1,24 @@
+main {display: flex;
+     justify-content: space-around;
+    flex-wrap: wrap;}
+.items {border-radius: 25%;}
+.sfondogatto {border-radius: 5%;
+               background-color: grey;}
+.fontsize {font-size: x-small;
+            color:white}
+img {max-width: 100%;}
+
+@media all (max-width:768px) and (max-width:375px;) 
+{
+    main {display: flex;
+        justify-content: space-around;
+       flex-wrap: wrap;}
+   .items {border-radius: 25%;}
+   .sfondogatto {border-radius: 5%;
+                  background-color: grey;}
+   .fontsize {font-size: x-small;
+               color:white}
+   img {max-width: 100%;}
+}
+
+
