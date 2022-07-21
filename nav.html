@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>navbar CSS</title>
+    <style>
+        .container{display: flex;
+                  max-width: 100%;
+                background-color: black;
+                  justify-content: space-around;}
+       article {
+                display: none;
+                background-color: blue;
+                max-width: 100%;
+                 justify-content:space-around ;}
+                    
+        a {color:white}
+        button {color:white;}
+        button:hover {color: green;}
+
+    @media  (max-width:780px;) { 
+        article {
+                display: flex;
+                background-color: blue;
+                max-width: 100%;
+                 justify-content:space-around ;}
+    }
+    @media (min-width:780px;) {
+        .container {display: flex;
+                  max-width: 100%;
+                background-color: black;
+                  justify-content: space-around;}
+                  a {color:white}
+        button {color:white;}
+        button:hover {color: green;}         
+    }
+
+    </style>
+    <body>
+        <main>
+            <nav><div class="container" >
+      <span><a href="home.html">Home</a></span>
+       <span><a href="link.html">link</a></span>
+     <span><a href="dropdown.html">dropdown</a></span>
+     <span> <a href="disabled.html">disabled</a> </span>
+     <button>
+    <label for="buttom"></label>
+        <input type="buttom" id="buttom" name="buttom" placeholder="search">cerca</button>
+    </div>
+    </nav>
+    <article>
+    <p>hamburger di manzo</p> 
+   <p>hamburger di vitello</p> 
+   <p>hamburger di pollo</p> </article>
+
+    
+        </main>
+    </body>
