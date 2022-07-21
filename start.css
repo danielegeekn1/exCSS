@@ -1,0 +1,11 @@
+body {display: flex;}
+.fy {order:1;
+     flex:15%}
+.fr {order:2;
+    flex:20%}
+.fg {order:3;
+    flex: 15%;}
+.fo {order:4;
+    flex: 40%;}
+.fb {order:5;
+    flex: 10%;}
