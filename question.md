@@ -5,3 +5,4 @@ Crea una sidebar che abbia come componenti:
 La sidebar deve avere dimensioni pari a 200px in larghezza e deve estendersi per tutta l'altezza della pagina.
 I link devono avere colore #2b2b2b e cambiare in #2b2bb2 al passaggio del mouse, con una transizione di 0.3 secondi;
 Usa flexbox per gestire il layout.
+Per spostare l'avatar e nome utente in fondo alla sidebar, puoi dare alla lista di link la proprietà flex: 1
