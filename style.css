@@ -1,0 +1,6 @@
+body {border: 1px solid;}
+.link {display:flex;
+     justify-content: flex-start;
+    gap: 50px;}
+img {max-width: 100%;} 
+.article {margin-bottom: 20px;}
