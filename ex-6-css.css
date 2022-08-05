@@ -3,7 +3,7 @@
                     width:100vw;}
         nav {display:flex;
             flex-basis:100%;
-            height:10%;
+            height:15%;
             gap:0.2rem;
             border-bottom: 2px solid white;
             background-color:darkblue;}
@@ -13,6 +13,7 @@
                         color:white;
                         justify-content:flex-start;
                          }
+                       
                 .navchild1 > ul   {display:flex;
                                     gap:2rem;
                                     justify-content:space-around;}
@@ -22,6 +23,7 @@
 
             .navchild2 {display:flex;
                         flex:40%;
+                   
                         gap:1rem;
                         margin-right:1rem;
                         align-items:center;
@@ -40,10 +42,24 @@
                                             transition:0.3s;}
         .navmobile {display:flex;
                     flex-basis:100%;
-                    height:10%;
+                    height:20%;
+                    background-color:darkblue;
+                    color:white;
                     justify-content:flex-start;
+                    align-items:center;
                     display:none;}
+            .navmobile > ul   {display:flex;
+                             gap:2rem;
+                            justify-content:space-around;}
 
-@media screen and (max-width:468px) {
-
+@media screen and (max-width:768px) {
+.flexmaincontainer {display:flex;}
+        nav {display:flex;
+            flex-basis:100%;
+             height:20%;
+            gap:0.2rem;
+            border-bottom: 2px solid white;
+            background-color:darkblue;}
+            .navchild1, .navchild2 {display:none;}
+            .navmobile {display:block;}
 }
