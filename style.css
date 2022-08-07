@@ -44,7 +44,7 @@
                         
         .image1child3 {display:flex;
                         flex:40%;
-                        
+                        background-color:lightgrey;
                         gap:0.2rem;}
 
     .image2 {display:flex;
@@ -84,7 +84,7 @@
 
         .image2child3 {display:flex;
                         flex:40%;
-                     
+                        background-color:lightgrey;
                         gap:0.2rem;}
     .image3 {display:flex;
             flex:1;
@@ -122,8 +122,9 @@
                         margin-top:0.5rem;}
         .image3child3 {display:flex;
                         flex:40%;
-                       
+                        background-color:lightgrey;
                         gap:0.2rem;}
+         
     
 @media screen and (min-width:375px) and (max-width:768px) {
     .flexmaincontainer {display:flex;
