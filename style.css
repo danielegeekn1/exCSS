@@ -124,3 +124,26 @@
                         flex:40%;
                        
                         gap:0.2rem;}
+    
+@media screen and (min-width:375px) and (max-width:768px) {
+    .flexmaincontainer {display:flex;
+                        flex-flow:row wrap;}
+
+        .image1 {display:flex;
+                flex:45%;}
+        .image2 {display:flex;
+                flex:45%;}
+        .image3 {display:flex;
+                flex:45%;}
+}
+
+@media screen and (max-width:375px) {
+    .flexmaincontainer {display:flex;
+                        flex-flow:column;}
+                        .image1 {display:flex;
+                            flex-basis:100%;}
+                         .image2 {display:flex;
+                            flex-basis:100%;}
+                    .image3 {display:flex;
+                            flex-basis:100%;}
+            }
